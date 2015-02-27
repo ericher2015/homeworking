@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+/Users/Bill/Documents/Eclipse_Workspace/homeworking/.metadata/.plugins/org.eclipse.jdt.core
