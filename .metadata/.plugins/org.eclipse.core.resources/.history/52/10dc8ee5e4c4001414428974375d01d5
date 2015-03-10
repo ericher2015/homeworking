@@ -1,0 +1,21 @@
+package com.example.homemakingmain;
+
+import android.app.Fragment;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+
+/**
+ * @author Bill
+ *
+ */
+public class WrapperActivity extends FragmentActivity {
+	@Override
+	protected void onCreate(Bundle bundle) {
+		super.onCreate(bundle);
+	}
+	
+	@Override
+	public void onAttachFragment(Fragment fragment) {
+		super.onAttachFragment(fragment);
+	}
+}

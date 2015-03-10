@@ -5,24 +5,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.yalantis.pulltorefresh.library.PullToRefreshView;
-
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.Gravity;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
+
+import com.yalantis.pulltorefresh.library.PullToRefreshView;
 
 public class MainActivity extends ActionBarActivity implements
 		ActionBar.OnNavigationListener {
@@ -37,7 +31,7 @@ public class MainActivity extends ActionBarActivity implements
         setContentView(R.layout.activity_pull_to_refresh);
 
         Map<String, Integer> map;
-        List<Map<String, Integer>> sampleList = new ArrayList<>();
+        List<Map<String, Integer>> sampleList = new ArrayList<Map<String, Integer>>();
 
         int[] icons = {
                 R.drawable.icon_1};
@@ -46,7 +40,7 @@ public class MainActivity extends ActionBarActivity implements
                 R.color.saffron};
 
         for (int i = 0; i < icons.length; i++) {
-            map = new HashMap<>();
+            map = new HashMap<String,Integer>();
             map.put(SampleAdapter.KEY_ICON, icons[i]);
             map.put(SampleAdapter.KEY_COLOR, colors[i]);
             sampleList.add(map);

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="eclair"/>
+	<classpathentry kind="src" path="eclair-mr1"/>
+	<classpathentry kind="src" path="froyo"/>
+	<classpathentry kind="src" path="gingerbread"/>
+	<classpathentry kind="src" path="honeycomb"/>
+	<classpathentry kind="src" path="honeycomb_mr2"/>
+	<classpathentry kind="src" path="ics"/>
+	<classpathentry kind="src" path="ics-mr1"/>
+	<classpathentry kind="src" path="jellybean"/>
+	<classpathentry kind="src" path="jellybean-mr1"/>
+	<classpathentry kind="src" path="jellybean-mr2"/>
+	<classpathentry kind="src" path="kitkat"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
